@@ -1,7 +1,130 @@
-body{
-    background-color: blueviolet;
-}
-
-head{
-    font-size: medium;
-}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #b97942;
+    font-family: Helvetica;
+    font-size: 20px;
+  }
+  
+  header {
+    top: 0;
+    width: 100%;
+    position: fixed;
+    justify-content: space-between;
+    display: flex;
+    background-color: #343525;
+  }
+  
+  #header-img {
+    margin-left: 50px; 
+  }
+  
+  .logo {
+      display: flex;
+      align-items: center;
+  }
+  
+  #nike_logo {
+    font-size: 1.2em;
+    color: white;
+    padding: 10px;
+  }
+  
+  .nav-link {
+    color: white;
+    
+  }
+  
+  nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    margin: 0.5em;
+    padding: 0.5em;
+  }
+  
+  #signup {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+  }
+  #email {
+    font-family: inherit;
+    font-size: inherit;
+    margin: 10px 0px;
+  }
+  
+  #submit {
+    color: #343525;
+    background-color: white;
+    cursor: pointer;
+    font-size: inherit;
+  }
+  
+  #container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #about-product {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width:60%;
+   }
+  
+  .fbox {
+    display: flex;
+  }
+  
+  .words {
+    margin: 0px 0px 30px 70px;
+  }
+  
+  #product-video {
+      width: 60%;
+  }
+  
+  #pictures {
+    display: flex;
+  }
+  
+  div > ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer {
+    color:white;
+    margin: 0 20%;
+    background-color: #343525;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  span {
+    font-size: 18px;
+  }
+  
+  @media (max-width: 800px) {
+    #video {
+      height: 300px;
+    }
+  }
